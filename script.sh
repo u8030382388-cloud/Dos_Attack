@@ -3,7 +3,7 @@
 clear
 sleep 1
 
-sudo pacman -S figlet -y
+sudo pacman -S --noconfirm figlet
 sudo pacman -Syu
 
 clear
