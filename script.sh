@@ -18,4 +18,5 @@ echo "-----------------------------------------------------------"
 echo "Introduce una página web o una IP objetivo: "
 read pagina
 
+printf '\033[1;33m[!] Comenzando ataque:\n\033[0m\n'
 ping -c 9223372036854775807 $pagina
