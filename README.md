@@ -96,8 +96,8 @@ By Elpíxel
 Introduce una página web o una IP objetivo:
 192.168.1.10
 PING 192.168.1.10 (192.168.1.10) 56(84) bytes of data.
-64 bytes from 192.168.1.10: icmp_seq=1 ttl=64 time=0.045 ms
-64 bytes from 192.168.1.10: icmp_seq=2 ttl=64 time=0.051 ms
+65507 bytes from 192.168.1.10: icmp_seq=1 ttl=64 time=0.045 ms
+65507 bytes from 192.168.1.10: icmp_seq=2 ttl=64 time=0.051 ms
 ...
 ```
 
