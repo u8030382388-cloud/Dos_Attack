@@ -3,7 +3,7 @@
 clear
 sleep 1
 
-sudo apt install lolcat figlet -y
+sudo apt install figlet -y
 
 printf '\033[38;2;235;85;100m'
 figlet "DdosBash"
