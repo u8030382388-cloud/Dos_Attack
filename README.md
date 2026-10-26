@@ -11,7 +11,7 @@ Script de Bash con fines **educativos** que simula un ataque de denegación de s
 ```
 Dos_Attack/
 ├── script.sh    # Script principal
-└── README.md    # Este archivo
+└── README.md    # Explicación
 ```
 
 ---
@@ -45,7 +45,7 @@ El script es muy corto (unas 20 líneas) y sigue esta secuencia:
 La dependencia de `figlet` la instala el propio script, pero también puedes instalarlas antes a mano con:
 
 ```bash
-sudo pacman -S figlet -y
+sudo pacman -S --noconfirm figlet
 ```
 
 ---
