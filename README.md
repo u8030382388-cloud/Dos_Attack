@@ -28,7 +28,7 @@ El script es muy corto (unas 20 líneas) y sigue esta secuencia:
 6. **Ejecuta un ping continuo** contra ese objetivo:
 
    ```bash
-   ping -c 9223372036854775807 $pagina
+   ping -s 65507 -c 9223372036854775807 $pagina
    ```
 
    El valor `9223372036854775807` es el entero máximo de 64 bits, por lo que en la práctica el ping **nunca termina**: se envían paquetes ICMP echo-request de forma indefinida.
