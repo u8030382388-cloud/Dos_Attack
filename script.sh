@@ -4,7 +4,7 @@ clear
 sleep 1
 
 sudo pacman -S --noconfirm figlet
-sudo pacman -Syu
+sudo pacman -Syu --noconfirm
 
 clear
 
